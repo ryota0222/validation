@@ -6,3 +6,5 @@
 const isValueBlank = (value: string | number): boolean => {
   return !String(value) || !String(value).match(/\S/g);
 };
+
+export { isValueBlank };
