@@ -35,7 +35,7 @@ jobs:
 
       # パッケージ公開
       - name: publish
-        run: npx can-npm-publish --verbose && npm publish || echo "Error: No need to publish"
+        run: npx can-npm-publish --verbose && npm publish || echo "No need to publish"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
