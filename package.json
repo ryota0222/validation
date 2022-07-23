@@ -1,0 +1,24 @@
+{
+  "name": "@ryota0222/validation",
+  "version": "0.0.1",
+  "description": "Convenience functions for validation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ryota0222"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryota0222/validation.git"
+  },
+  "author": "Matsumoto Ryota <awpjdmga1943@icloud.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
