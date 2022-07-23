@@ -4,7 +4,7 @@
  * @returns {*}  {boolean} If true, contains space or a newline
  */
 const isValueContainBlank = (value: string | number): boolean => {
-  return !String(value) || !String(value).match(/\S/g);
+  return !String(value) || !!String(value).match(/\S/g);
 };
 
 /**
